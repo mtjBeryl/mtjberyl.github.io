@@ -9,7 +9,8 @@ author: mtjBeryl
 
 Just load up Stylus or any other browser extension that allows you to customize the CSS for a web page and use the below CSS to convert your HTB Academy dark theme into a white theme. Probably there could be some improvements, but it works for me.
 
-`@-moz-document domain("academy.hackthebox.com") {
+```
+@-moz-document domain("academy.hackthebox.com") {
     /* Base Styling */
     .col-md-12.col-xl-9.col-xxl-7, 
     pre.language-shell-session, 
@@ -156,4 +157,4 @@ Just load up Stylus or any other browser extension that allows you to customize 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 }
-`
+```
